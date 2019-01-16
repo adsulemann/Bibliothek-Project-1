@@ -1,0 +1,168 @@
+html{
+    box-sizing:  border-box;
+}
+ 
+
+body{
+    margin:0px;
+
+    
+}
+ 
+ header {
+    font-family: sans-serif; 
+    background-color: #333333;
+    height: 120px;
+    
+ }
+
+ .headerh1 {
+     color: white;
+    font-size: 40px;
+    width: 150px;
+    height: 100%;
+    position: relative;
+    left: 15px;
+    align-items: center;
+    
+    display:  flex;
+ }
+
+ .headerh1 span{
+     color: red ;
+     font-size: 50px;
+     
+}
+
+.a1{
+    text-decoration:  none;   
+    color: #ffffff;
+    font-family:  sans-serif;
+}
+
+
+.nav1 ul li{
+    list-style:  none;
+    display: inline-flex;
+    padding: 20px;
+    background-color:  grey;
+    border-right:  1px solid black;
+}
+
+
+ul{
+   padding: 0px;
+   margin: 0px; 
+}
+
+
+.nav1 {
+    background-color:grey;
+    border:  1px solid grey;
+    margin: 0px;
+
+}
+
+main{
+    background-color:#ffffff;
+
+
+    width: 100%;
+    display: inline-flex;
+    
+}
+
+.d1,.d2,.d3 {
+  height: 250px;
+  display: flex;
+}
+
+
+
+
+.text{
+    position: relative;
+    left: 20px;
+    width: 700px;
+    height: 225px;
+    
+    padding-left: 20px; 
+    font-family: sans-serif;
+    
+}
+
+span{
+    color: rgb(255, 81, 0);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+
+.text::after{
+    content: '';
+    position: absolute;
+    height:1px;
+    width: 840px;
+    bottom: 0px;
+    left:-167px;
+    background:gray;
+}
+
+
+
+aside{
+    position: relative;
+    background-color: grey;
+   
+}
+.asid{
+    padding: 20px;
+    
+    background-color:#e5e5e5;
+    height: 100%;
+}
+
+ul li{
+    list-style: none;
+    padding-bottom: 18px;
+
+}
+.a2{
+    text-decoration:  none;
+    color: orange;
+}
+
+aside h1{
+    padding-bottom: 25px;
+}
+
+
+h2{
+    padding-bottom: 20px;
+
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+   top: 20px;
+    color: white;
+    display:  flex;
+    align-items:  center;
+    justify-content:  center;
+}
+
+.span{
+    color: orange;
+   
+}
